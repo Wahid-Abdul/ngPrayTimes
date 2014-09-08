@@ -1,0 +1,26 @@
+{
+  "name": "ngPrayTimes",
+  "version": "0.0.1",
+  "authors": [
+    "Mohamed El Mahallawy <mmahalwy@gmail.com>"
+  ],
+  "description": "Prayer times for your angularjs app",
+  "main": "./prayertimes.coffee",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "pray",
+    "times",
+    "muslim"
+  ],
+  "license": "MIT",
+  "homepage": "N/A",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
