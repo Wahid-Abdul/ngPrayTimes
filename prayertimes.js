@@ -284,12 +284,7 @@ angular.module("ngPrayTimes", []).service("prayTimes", function() {
         factor = {
           Standard: 1,
           Hanafi: 2
-        };
-        [
-          {
-            asrParam: asrParam
-          }
-        ];
+        }[asrParam];
         return factor || this["eval"](asrParam);
       },
       riseSetAngle: function() {

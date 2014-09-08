@@ -408,10 +408,11 @@ angular.module("ngPrayTimes", [])
 	  
 	  # get asr shadow factor
 	  asrFactor: (asrParam) ->
-	    factor =
-	      Standard: 1
+	    factor = {
+	      Standard: 1,
 	      Hanafi: 2
-	    [{asrParam}]
+	    }[asrParam]
+	    
 	    factor or @eval(asrParam)
 
 	  
