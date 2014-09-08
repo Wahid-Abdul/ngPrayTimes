@@ -5,7 +5,7 @@
     "Mohamed El Mahallawy <mmahalwy@gmail.com>"
   ],
   "description": "Prayer times for your angularjs app",
-  "main": "./prayertimes.coffee",
+  "main": "./prayertimes.js",
   "moduleType": [
     "globals"
   ],
