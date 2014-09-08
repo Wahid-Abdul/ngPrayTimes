@@ -570,4 +570,4 @@ angular.module("ngPrayTimes", [])
 
 
 	#---------------------- Init Object -----------------------
-	#prayTimes = new PrayTimes()
+	return PrayTimes

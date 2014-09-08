@@ -382,7 +382,7 @@ angular.module("ngPrayTimes", []).service("prayTimes", function() {
       }
     };
   };
-  return DMath = {
+  DMath = {
     dtr: function(d) {
       return (d * Math.PI) / 180.0;
     },
@@ -428,6 +428,7 @@ angular.module("ngPrayTimes", []).service("prayTimes", function() {
       }
     }
   };
+  return PrayTimes;
 });
 
 //# sourceMappingURL=prayertimes.map
